@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>deepx.staging.dir</name>
+        <value>/tmp/DeepX/staging</value>
+    </property>
+    <property>
+        <name>deepx.cleanup.enable</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>deepx.execute.node.limit</name>
+        <value>200</value>
+    </property>
+    <property>
+        <name>deepx.log.pull.interval</name>
+        <value>1000</value>
+    </property>
+    <property>
+        <name>deepx.am.memory</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>deepx.am.cores</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>deepx.worker.memory</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>deepx.worker.cores</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>deepx.worker.num</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>deepx.ps.memory</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>deepx.ps.cores</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>deepx.ps.num</name>
+        <value>0</value>
+    </property>
+    <property>
+        <name>deepx.app.queue</name>
+        <value>DEFAULT</value>
+    </property>
+    <property>
+        <name>deepx.app.priority</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>deepx.container.extra.java.opts</name>
+        <value></value>
+    </property>
+    <property>
+        <name>deepx.allocate.interval</name>
+        <value>1000</value>
+    </property>
+    <property>
+        <name>deepx.status.update.interval</name>
+        <value>1000</value>
+    </property>
+    <property>
+        <name>deepx.task.timeout</name>
+        <value>300000</value>
+    </property>
+    <property>
+        <name>deepx.task.timeout.check.interval</name>
+        <value>3000</value>
+    </property>
+    <property>
+        <name>deepx.messages.len.max</name>
+        <value>10000</value>
+    </property>
+    <property>
+        <name>deepx.inputfile.rename</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>deepx.download.file.retry</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>deepx.download.file.thread.nums</name>
+        <value>10</value>
+    </property>
+    <property>
+        <name>deepx.container.heartbeat.interval</name>
+        <value>10000</value>
+    </property>
+    <property>
+        <name>deepx.container.heartbeat.retry</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>deepx.container.update.appstatus.interval</name>
+        <value>3000</value>
+    </property>
+    <property>
+        <name>deepx.container.auto.create.output.dir</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>deepx.container.maxFailures.rate</name>
+        <value>0.5</value>
+    </property>
+    <property>
+        <name>deepx.tf.board.history.dir</name>
+        <value>/tmp/DeepX/eventLog</value>
+    </property>
+    <property>
+        <name>deepx.history.log.dir</name>
+        <value>/tmp/DeepX/history</value>
+    </property>
+    <property>
+        <name>deepx.history.log.max-age-ms</name>
+        <value>604800000</value>
+    </property>
+    <property>
+        <name>deepx.history.log.delete-monitor-time-interval</name>
+        <value>86400000</value>
+    </property>
+    <property>
+        <name>deepx.history.address</name>
+        <value>0.0.0.0:10021</value>
+    </property>
+    <property>
+        <name>deepx.history.port</name>
+        <value>10021</value>
+    </property>
+    <property>
+        <name>deepx.history.webapp.address</name>
+        <value>0.0.0.0:19886</value>
+    </property>
+    <property>
+        <name>deepx.history.webapp.port</name>
+        <value>19886</value>
+    </property>
+    <property>
+        <name>deepx.history.webapp.https.address</name>
+        <value>0.0.0.0:19885</value>
+    </property>
+    <property>
+        <name>deepx.history.webapp.https.port</name>
+        <value>19885</value>
+    </property>
+    <property>
+        <name>deepx.history.client.thread-count</name>
+        <value>10</value>
+    </property>
+    <property>
+        <name>deepx.history.recovery.enable</name>
+        <value>false</value>
+    </property>
+</configuration>
